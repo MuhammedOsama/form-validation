@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #4EC6E1;
+    --secondaryColor: #EC4491;
+    --textColor: #333333;
+    --borderColor: #D6D6D6;
+    --whiteColor: #ffffff;
+    --errorColor: #D80027;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+::placeholder {
+    color: var(--borderColor);
+    opacity: 1;
+    font-size: 14px;
+}
+
+::-ms-input-placeholder {
+    color: var(--borderColor);
+    font-size: 14px;
+}
+
+::-ms-input-placeholder {
+    color: var(--borderColor);
+    font-size: 14px;
+}
+
+.row .background {
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.row .background .content {
+    position: absolute;
+    margin-left: 24px;
+    bottom: 24px;
+}
+
+.row .background .content .logo {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.row .background .content .logo .logo-img {
+    width: 48px;
+    margin-right: 12px;
+}
+
+.row .background .content .title {
+    color: var(--secondaryColor);
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.row .background .content .desc {
+    max-width: 357px;
+    font-size: 14px;
+    color: var(--textColor);
+}
+
+.row .section .section-logo {
+    margin: 24px;
+}
+
+.row .section .section-logo .logo-img {
+    width: 48px;
+    float: right;
+}
+
+.row .section .section-content {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.row .section .section-content .content {
+    color: var(--textColor);
+}
+
+.row .section .section-content .content .title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.row .section .section-content .content .desc {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.row .section .section-content .content .tab-before {
+    content: "";
+    position: absolute;
+    width: 165px;
+    height: 5px;
+    background-color: var(--borderColor);
+    border-radius: 40px;
+    right: 191px;
+    top: 119px;
+}
+
+.row .section .section-content .content .before {
+    content: "";
+    position: absolute;
+    width: 165px;
+    height: 5px;
+    background-color: var(--borderColor);
+    border-radius: 40px;
+    left: 911px;
+    top: 119px;
+}
+
+.row .section .section-content .content .tab-after {
+    content: "";
+    position: absolute;
+    width: 165px;
+    height: 5px;
+    background-color: var(--mainColor);
+    border-radius: 50px;
+    left: 911px;
+    top: 119px;
+}
+
+.row .section .section-content .content .after {
+    content: "";
+    position: absolute;
+    width: 165px;
+    height: 5px;
+    background-color: var(--mainColor);
+    border-radius: 40px;
+    right: 191px;
+    top: 119px;
+}
+
+.row .section .section-content .form {
+    margin-top: 45px;
+}
+
+.row .section .section-content .form .label-form {
+    margin-bottom: 16px;
+}
+
+.row .section .section-content .form .label-form .title-form {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: var(--textColor);
+    text-align: left;
+}
+
+.row .section .section-content .form .label-form .input-form {
+    display: block;
+    padding: 14px 16px;
+    width: 408px;
+    height: 50px;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    outline: none;
+}
+
+.row .section .section-content .form .label-form .error-msg {
+    color: var(--errorColor);
+    font-size: 12px;
+    display: none;
+}
+
+.row .section .section-content .form .label-form .icon-form {
+    color: var(--borderColor);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: -37px 0;
+    right: 166px;
+    cursor: pointer;
+}
+
+.row .section .section-content .btn-continue {
+    margin-top: 24px;
+}
+
+.row .section .section-content .btn-continue .btn {
+    background-color: var(--mainColor);
+    width: 408px;
+    height: 50px;
+    color: var(--whiteColor);
+    font-weight: 600;
+}
+
+.row .section .section-content .btn-continue .confirm {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.row .section .section-content .btn-continue .login {
+    margin-left: 4px;
+    color: var(--mainColor);
+    font-weight: 600;
+    text-decoration: none;
+}

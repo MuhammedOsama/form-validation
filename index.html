@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moltaqa</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="col-md-6 background">
+        <div class="content">
+            <div class="logo">
+                <img class="logo-img" src="./images/logo.png" alt="Moltaqa Logo"/>
+                <span class="title">Moltaqa</span>
+            </div>
+            <p class="desc">Great platform for the job seeker that searching for new career heights.</p>
+        </div>
+    </div>
+    <div class="col-md-6 col-12 section">
+        <div class="section-logo">
+            <img class="logo-img" src="./images/logo.png" alt="Moltaqa Logo"/>
+        </div>
+        <div class="section-content">
+            <div class="content">
+                <h3 class="title">Get more opportunities</h3>
+                <span class="desc">Take the next step and sign up to your account</span>
+                <span class="tab-before"></span>
+                <span class="tab-after"></span>
+            </div>
+            <form class="form">
+                <label class="label-form">
+                    <span class="title-form">Full Name</span>
+                    <input id="full-name" class="input-form" type="text" placeholder="Enter your full name"/>
+                    <span id="error-name" class="error-msg">Full Name is required</span>
+                    <span id="error-full-name-characters" class="error-msg">Full Name should be minimum 3 characters</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Email Address</span>
+                    <input id="email-address" class="input-form" type="email" placeholder="Enter your email address"/>
+                    <span id="error-email" class="error-msg">Email Address is required</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Phone Number</span>
+                    <input id="phone-number" class="input-form" type="text" placeholder="Enter your phone number"/>
+                    <span id="error-phone-number" class="error-msg">Phone Number is required</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Password</span>
+                    <input id="password" class="input-form" type="password" placeholder="Enter your password"/>
+                    <i id="icon" class="fa-regular fa-eye-slash icon-form"></i>
+                    <span id="error-password" class="error-msg">Password is required</span>
+                    <span id="error-password-characters" class="error-msg">Password should be minimum 8 characters</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Confirm Password</span>
+                    <input id="confirm-password" class="input-form" type="password" placeholder="Enter your confirm password"/>
+                    <i class="fa-regular fa-eye-slash icon-form"></i>
+                    <span id="error-confirm-password" class="error-msg">Confirm Password is required</span>
+                    <span id="error-confirm-password-characters" class="error-msg">Confirm Password should be minimum 8 characters</span>
+                    <span id="error-match" class="error-msg">Password Don’t Match</span>
+                </label>
+            </form>
+            <div class="btn-continue">
+                <button id="btn-submit" class="btn">Continue</button>
+                <p class="confirm">Already have an account?<a href="#" class="login">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/all.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

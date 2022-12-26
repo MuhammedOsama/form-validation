@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moltaqa</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="row">
+    <div class="col-6 background">
+        <div class="content">
+            <div class="logo">
+                <img class="logo-img" src="./images/logo.png" alt="Moltaqa Logo"/>
+                <span class="title">Moltaqa</span>
+            </div>
+            <p class="desc">Great platform for the job seeker that searching for new career heights.</p>
+        </div>
+    </div>
+    <div class="col-6 section">
+        <div class="section-logo">
+            <img class="logo-img" src="./images/logo.png" alt="Moltaqa Logo"/>
+        </div>
+        <div class="section-content">
+            <div class="content">
+                <h3 class="title">Get more opportunities</h3>
+                <span class="desc">Take the next step and sign up to your account</span>
+                <span class="before"></span>
+                <span class="after"></span>
+            </div>
+            <form class="form">
+                <label class="label-form">
+                    <span class="title-form">First Address</span>
+                    <input id="first-address" class="input-form" type="text" placeholder="Enter your first address"/>
+                    <span id="error-first-address" class="error-msg">First Address is required</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Second Address</span>
+                    <input class="input-form" type="email" placeholder="Enter your second address"/>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">City</span>
+                    <input id="city" class="input-form" type="text" placeholder="Enter your City"/>
+                    <span id="error-city" class="error-msg">City is required</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">District</span>
+                    <input id="district" class="input-form" type="text" placeholder="Enter your district"/>
+                    <span id="error-district" class="error-msg">District is required</span>
+                </label>
+                <label class="label-form">
+                    <span class="title-form">Alternative Phone Number</span>
+                    <input class="input-form" type="text" placeholder="Enter your alternative phone number"/>
+                </label>
+            </form>
+            <div class="btn-continue">
+                <button id="btn-register" class="btn">Register</button>
+                <p class="confirm">Already have an account?<a href="#" class="login">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/all.min.js"></script>
+<script src="./js/address.js"></script>
+</body>
+</html>
